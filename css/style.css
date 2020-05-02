@@ -1,0 +1,444 @@
+/* INDICAZIONI GENERALI BODY */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+.centered-text {
+  text-align: center;
+}
+/* FINE INDICAZIONI GENERALI BODY */
+
+/* INIZIO HEADER */
+
+/* inizio navbar */
+header .navbar {
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-bottom: 15px;
+}
+.navbar img {
+  height: 12px;
+}
+
+header ul {
+  text-align: right;
+}
+header ul li {
+  padding-right: 16px;
+  font-size: 10px;
+  display: inline-block;
+}
+.menu .ita {
+  border-left: 1px solid black;
+  padding-right: 9px;
+  padding-left: 9px;
+  border-right: 1px solid black;
+}
+/* fine navbar */
+
+/* inizio hero */
+.hero {
+ background-image: url(../img/hero-bg.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 500px;
+ position: relative;
+}
+header .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+header p {
+  margin: 15px;
+  font-size: 12px;
+}
+/* fine hero */
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+
+/* inizio products */
+main .products img {
+  height: 400px;
+}
+.products {
+  background-color: #FDFAFB;
+}
+.products .centered-text {
+  margin: 40px;
+}
+.products p {
+  margin: 16px;
+}
+/* media query xs product */
+@media screen and (max-width: 769px) {
+  main .products img {
+    height: 360px;
+  }
+}
+/* media query md product */
+@media screen and (min-width:768px) and (max-width: 992px){
+  main .products img {
+    height: 270px;
+  }
+}
+/* fine products */
+
+/* inizio how iphone */
+.how {
+ background-image: url(../img/banner.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 350px;
+}
+.iphone {
+  height: 250px;
+}
+.smartphone img {
+  height: 440px;
+  margin-top: -200px;
+}
+.iphone h3 {
+  margin-top: 80px;
+  font-size: 25px;
+}
+/* how iphone screen mediaquery */
+@media screen and (max-width: 769px) {
+  .iphone h3 {
+    font-size: 10px;
+  }
+  .smartphone img {
+    height: 200px;
+    margin-top: -100px;
+  }
+  .iphone p {
+    font-size: 8px;
+  }
+  .how {
+   background-image: url(../img/banner.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 170px;
+  }
+  .iphone {
+    height: 120px;
+  }
+}
+@media screen and (min-width:768px) and (max-width: 992px) {
+  main .smartphone img {
+    height: 250px;
+    margin-top: -120px;
+  }
+  .iphone h3 {
+    font-size: 18px;
+  }
+  .how {
+   background-image: url(../img/banner.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+  height: 200px;
+  }
+  .iphone {
+    height: 150px;
+  }
+}
+/* fine how iphone */
+
+/* inizio smart mobility */
+.smart {
+  background-image: url(../img/scooter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  position: relative;
+  width: 100%;
+}
+.smart .testo {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+ a {
+  color: white;
+  text-decoration: none;
+}
+.testo h3 {
+  margin: 20px;
+}
+.testo h2{
+  font-size: 60px;
+}
+@media screen and (max-width: 769px) {
+  .smart {
+    background-image: url(../img/scooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .smart .testo {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+  }
+   a {
+    color: white;
+    text-decoration: none;
+  }
+  .testo h3 {
+    margin: 20px;
+  }
+  .testo h2{
+    font-size: 40px;
+  }
+}
+/* fine smart mobility */
+
+/* inizio city */
+
+main .city {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 350px;
+}
+.app {
+  background-color: #31325E;
+  height: 350px;
+  position: relative;
+}
+.app img {
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  top: 71%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.citta {
+  background-image: url(../img/city.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+.city .centered-text {
+  color: white;}
+
+.city h3 {
+  margin-top: 15px;
+}
+.city p {
+  margin-top: 15px;
+}
+@media screen and (max-width: 769px)  {
+
+  main .city {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 200px;
+  }
+  .citta {
+    background-image: url(../img/city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+  }
+  .city h3 {
+    margin-top: 10px;
+  }
+  .city p {
+    margin-top: 10px;
+  }
+
+}
+/* fine city */
+/* inziio family */
+.family {
+  background-image: url(../img/socialbanner.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.family .helbizfamily {
+  background-color: white;
+  height: 150px;
+  width: 370px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.helbizfamily h5 {
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 8px;
+  margin-top: 25px;
+}
+.helbizfamily i {
+  font-size: 30px;
+}
+/* media query family */
+@media screen and (max-width: 769px) {
+  .family {
+    background-image: url(../img/socialbanner.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 250px;
+    margin-bottom: 30px;
+  }
+  .family .helbizfamily {
+    background-color: white;
+    height: 100px;
+    width: 230px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+   .helbizfamily h5 {
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 25px;
+  }
+  .helbizfamily i {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width:768px) and (max-width: 992px)  {
+  .family {
+    background-image: url(../img/socialbanner.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  .family .helbizfamily {
+    background-color: white;
+    height: 100px;
+    width: 270px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .helbizfamily h5 {
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 25px;
+  }
+  .helbizfamily i {
+    font-size: 20px;
+  }
+}
+/* fine family */
+/* FINE MAIN */
+
+/* INIZIO FOOOTER */
+footer {
+  background-color: black;
+  color: white;
+  height: 800px;
+}
+footer .first-footer {
+  margin-bottom: 20px;
+  margin-left: 60px;
+  margin-right:80px;
+}
+footer h6 {
+  margin-bottom: 10px;
+}
+footer .second-footer {
+  padding: 30px;
+  margin-left: 60px;
+  margin-right:80px;
+}
+footer li {
+  margin-bottom: 10px;
+  font-weight: lighter;
+  font-size: 10px;
+}
+footer p {
+  font-weight: lighter;
+  font-size: 10px;
+}
+footer i {
+  margin-right: 9px;
+}
+footer .appstore {
+  text-align: right;
+}
+/* media query footer */
+@media screen and (max-width: 769px) {
+  .logofooter img {
+    height: 10px;
+  }
+  .playgoogle img{
+    height: 25px;
+  }
+  .appstore img{
+    height: 25px;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    height: 1100px;
+  }
+
+}
+
+@media screen and (min-width:768px) and (max-width: 992px)  {
+  .logofooter img {
+    height: 12px;
+  }
+  .playgoogle img{
+    height: 35px;
+  }
+  .appstore img{
+    height: 35px;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    height: 650px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* FINE HEADER */
